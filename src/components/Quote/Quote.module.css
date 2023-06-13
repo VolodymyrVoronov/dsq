@@ -1,0 +1,105 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.author {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.source {
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media (min-width: 320px) {
+  .root {
+    min-width: 320px;
+    padding: 10px 10px;
+  }
+
+  .quote {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .author {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .source {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  .root {
+    min-width: 480px;
+    padding: 10px 20px;
+  }
+
+  .quote {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .author {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .source {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    min-width: 768px;
+
+    padding: 10px 50px;
+  }
+
+  .quote {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .author {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .source {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .root {
+    padding: 10px 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .root {
+    padding: 10px 150px;
+  }
+
+  .quote {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
