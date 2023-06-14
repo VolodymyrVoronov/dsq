@@ -1,6 +1,7 @@
 .root {
   position: absolute;
   bottom: 15px;
+  right: 15px;
 
   display: flex;
   justify-content: center;
@@ -8,8 +9,9 @@
 
   color: var(--white);
 
-  background-color: transparent;
+  background-color: var(--black);
   border: none;
+  border-radius: 50%;
   opacity: 0.5;
 
   cursor: pointer;
@@ -22,6 +24,16 @@
   scale: 1.25;
 
   transition: all 0.2s ease-in-out;
+}
+
+.root {
+  width: 50px;
+  height: 50px;
+}
+
+.root img {
+  width: 30px;
+  height: 30px;
 }
 
 @media (min-width: 320px) {

@@ -4,14 +4,14 @@
 }
 
 .quote {
+  padding: 2px 0;
+
   font-weight: 400;
   letter-spacing: 0.5px;
   text-align: center;
 }
 
 .author {
-  margin-top: 50px;
-
   text-align: center;
 }
 
@@ -32,6 +32,8 @@
   }
 
   .author {
+    margin-top: 25px;
+
     font-size: 18px;
     line-height: 22px;
   }
@@ -54,6 +56,8 @@
   }
 
   .author {
+    margin-top: 35px;
+
     font-size: 20px;
     line-height: 24px;
   }
@@ -77,6 +81,8 @@
   }
 
   .author {
+    margin-top: 45px;
+
     font-size: 24px;
     line-height: 28px;
   }
@@ -90,6 +96,10 @@
 @media (min-width: 1024px) {
   .root {
     padding: 10px 100px;
+  }
+
+  .author {
+    margin-top: 50px;
   }
 }
 
